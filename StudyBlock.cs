@@ -9,11 +9,13 @@ namespace RequirementsEngineeringGroupProject
     public class StudyBlock
     {
         // properties 
+        public int StudyBlockId { get; private set; }
+        public DateTime StartTime { get;  set; }
+        public DateTime EndTime { get; set; }
+        public DateOnly Day {  get; set; }
 
 
-        // Constructor 
-
-
+       
 
         // Methods 
     }
