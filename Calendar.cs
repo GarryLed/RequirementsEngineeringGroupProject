@@ -9,10 +9,13 @@ namespace RequirementsEngineeringGroupProject
     public class Calendar
     {
         // properties 
-
-
-        // Constructor 
-
+        public int CalendarId { get; private set; }
+        public int CalendarEvent {  get; set; }
+        public string Name { get; set; }
+        public string Description { get; set; }
+        public DateTime StartTime { get; set; }
+        public DateTime EndTime { get; set; }
+        
 
 
         // Methods 
