@@ -9,10 +9,13 @@ namespace RequirementsEngineeringGroupProject
     public class Student
     {
         // properties 
+        public int StudentID { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public string Email { get; set; }
 
-
-        // Constructor 
-
+        // collections 
+      
 
 
         // Methods 

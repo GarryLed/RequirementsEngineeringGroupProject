@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RequirementsEngineeringGroupProject
 {
-    internal class StudySession
+    public class StudySession
     {
         // properties 
 
