@@ -99,7 +99,8 @@ Scenario: Setting study goals
 •	When I click on “Create study goal”  
 •	Then a popup window appears that allows me to enter a goal name, and the least number of hours I want to study for, daily. 
 
-==================================
+===================================================================================================
+
 **User Story 1**
 As a student, I want to be able to track my mood throughout the day so I can track my wellbeing over time.
 Acceptance Criteria
@@ -186,15 +187,85 @@ Break Reminder Notification
 
 ## Wireframes 
 
+**As a student I want to be notified about upcoming classes and or exams/CA’s daily  so I don’t miss a deadline or exam.**
+
+![image](https://github.com/user-attachments/assets/19294681-1da2-4880-9854-9043525945cc)
+
+**As a student, I want to track my study time, so I can reduce stress and see how much time I am allocating to each course on a daily/weekly basis.**
+
+![image](https://github.com/user-attachments/assets/421f4580-4b8f-443a-b842-c6152e2e3840)
+
+### Use Case Diagrams 
+![image](https://github.com/user-attachments/assets/6f9d5d90-d1d3-4d29-bb3a-0d764d1de1af)
+
+===========================================================
+
 **Notification sent about an event:      Browse Existing Events:                         Create Events:**
 
+![image](https://github.com/user-attachments/assets/253edf19-0d48-4f3a-8f1f-f8d708ce8e6b)     ![image](https://github.com/user-attachments/assets/a1999aa0-9117-44e0-8f0e-8664ea48b745)   ![image](https://github.com/user-attachments/assets/728ec5db-9edf-4343-ba58-b3fd1f7cb152)
 
+### Use Case Diagrams 
+![image](https://github.com/user-attachments/assets/6f9d5d90-d1d3-4d29-bb3a-0d764d1de1af)
 
-## Use Case Diagrams 
+![image](https://github.com/user-attachments/assets/882f8496-b78b-426b-87e3-4ca380d79ef1)
 
+=======================================================================
+**Tracking Moods Trends**
+
+![image](https://github.com/user-attachments/assets/58c9236b-2851-4c01-b111-cd9dab4ae297)  ![image](https://github.com/user-attachments/assets/1ff1d9f8-e81b-4521-9eee-7948a77e9988)
 
 
 ==============================================
-## Part 2: 
+# Part 2: 
+## User Story Entity Class Diagrams: 
+
+**1.	As a student I want to be notified about upcoming classes and or exams/CA’s daily, so I don’t miss a deadline or exam.**
+![image](https://github.com/user-attachments/assets/6fd631c1-47ce-47bf-b021-63255a0963d5)
+
+**2.	As a student, I want to track my study time, so I can reduce stress and see how much time I am allocating to each course on a weekly basis.**
+
+![image](https://github.com/user-attachments/assets/6c506910-5f70-47dd-a42a-755109753335)
+
+**Entity classes for both user stories:**
+
+![image](https://github.com/user-attachments/assets/9b637f74-ede5-452b-8041-945fdc06c559)
+
+### Entity class relationships with cardinality for the above classes: 
+1.	**Student** and **Schedule**
+ - Cardinality: 1:1 (One-to-One)
+ - Each student has one schedule which contains their courses, exams and events.
+
+### Collection Classes 
+
+### Manager Classes 
+Two other classes that could be needed for managing notifications and scheduling would be a NotificationManager class and a ScheduleManager class. For example,
+
+1.	NotificationManager Class that manages notifications sent to students for upcoming events, like classes, exams, or study blocks.
+This class would be responsible for sending notifications and reminders to the student about their classes, exams or upcoming study blocks. 
+
+2.	ScheduleManager Class that handles all operations related to a student's schedule. 
+This class would be responsible for managing courses, exams, and schedules for a student. 
+
+
+## State Machine Diagrams 
+### Timer Class State Machine Diagram 
+![image](https://github.com/user-attachments/assets/b4a0be58-dde9-4ee5-95c7-28dfeb547f87)
+
+
+## Activity Diagram (shows how the features will fit together) 
+![image](https://github.com/user-attachments/assets/7026bde7-1d02-4a2a-8f1f-a8b12a728061)
+
+## Prototype (code in C#)
+
+
+## Application Architecture Diagram 
+![image](https://github.com/user-attachments/assets/6d8146ec-624b-4506-8952-3af34eb52a98)
+
+
+
+
+
+
+
 
 
