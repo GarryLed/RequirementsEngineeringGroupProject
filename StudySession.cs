@@ -9,11 +9,9 @@ namespace RequirementsEngineeringGroupProject
     public class StudySession
     {
         // properties 
-
-
-        // Constructor 
-
-
+        public int SessionID { get; set; }
+      
+        public string Name { get; set; }
 
         // Methods 
     }
