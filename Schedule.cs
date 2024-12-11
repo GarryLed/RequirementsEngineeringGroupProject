@@ -9,12 +9,17 @@ namespace RequirementsEngineeringGroupProject
     public class Schedule
     {
         // properties 
+        public int ScheduleID { get; private set; }
+        public int CourseID { get; private set; }
+        public int ExamId { get; private set; }
+        public int NotificationId {  get; private set; }
 
 
-        // Constructor 
+        // collections 
 
 
 
         // Methods 
+    
     }
 }
