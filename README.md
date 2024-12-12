@@ -227,7 +227,7 @@ Break Reminder Notification
 ==========================================================================================
 # Part 2: 
 In this section, we will analyse the requirements even further by identifying the entity classes, 
-drawing class diagrams, state machine diagrams, architecture diagrams adding collection classes, methods, method specifications,and adding tests.
+drawing class diagrams, state machine diagrams, architecture diagrams, adding collection classes, methods, method specifications,and tests.
 ## User Story Entity Class Diagrams: 
 
 ### Bob
