@@ -16,10 +16,20 @@ namespace RequirementsEngineeringGroupProject
 
 
         // collections 
-
-
+        public List<Course> Courses { get; private set; }
+        public List<Exam> Exams { get; private set; }
+        public List<Notification> Notifications { get; private set; }
 
         // Methods 
-    
+        public void AddCourse()
+        {
+
+        }
+
+        public void AddExam()
+        {
+
+        }
+
     }
 }

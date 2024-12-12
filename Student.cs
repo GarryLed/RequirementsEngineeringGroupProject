@@ -8,16 +8,16 @@ namespace RequirementsEngineeringGroupProject
 {
     public class Student
     {
-        // properties 
+   
         public int StudentID { get; private set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Email { get; set; }
 
+
         // collections 
-      
+        public List<StudySession> StudySessions { get; private set; }
 
-
-        // Methods 
+        
     }
 }

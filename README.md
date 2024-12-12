@@ -44,21 +44,25 @@ Christina is a first-year international student studying at ATU Sligo.  She’s 
 She’s looking for an app that lets her discover on-campus events specifically aimed at all types of students. She also needs help staying on top of her coursework, especially because she’s still adjusting to the academic calendar and deadlines at ATU.
 She wants help finding events relevant to international or new students.
 
-## User Stories 
+### Bob's User Stories 
 
 1.	As a student I want to be notified about upcoming classes and or exams/CA’s daily, so I don’t miss a deadline or exam.
 2.	As a student, I want to track my study time, so I can reduce stress and see how much time I am allocating to each course on a weekly basis.
 3.	As a new student, I want to receive event suggestions that match my personal interests so i can meet new people
 
+### Christina's User Stories 
+	1. 
 4.	As a student, I want to set study goals and get reminders to meet them, so I can stay motivated
 5.	As a student, I want to set notifications for study breaks or reminders to take a break, so I can manage my study sessions and avoid burnout.
 
+### Adam's User Stories 
 6.	As a student I would like an app to help me create and let people know about events I organize so people who have similar interests to me can join my events. 
 7.	As a student I would like an app that sends me updates on events going on near me so I can meet people with similar interests and make new friends at events  
 8.	As a student I would like to filter between categories of events, so I can choose if I want a relaxing/ social event, or a fun/ sporty/ active event.
 
 ## Going deeper into the User Stories
-**User stories:**  
+
+** Bob's User stories:**  
 1.	As a student I want to be notified about upcoming classes and or exams/CA’s daily so I don’t miss a deadline or exam.   
  
 **Acceptance criteria/tests** 
