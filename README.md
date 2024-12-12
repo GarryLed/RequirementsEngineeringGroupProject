@@ -67,7 +67,7 @@ She wants help finding events relevant to international or new students.
 
 ### Starting with Bob
 
-1.	**As a student I want to be notified about upcoming classes and or exams/CA’s daily so I don’t miss a deadline or exam.** 
+**As a student I want to be notified about upcoming classes and or exams/CA’s daily so I don’t miss a deadline or exam.** 
  
 **Acceptance criteria/tests** 
 •	User is notified about upcoming classes and events  
@@ -87,7 +87,7 @@ Scenario: Getting notifications for upcoming CA exams and/or assignments due
 •	Then I am sent a notification to my phone about exam time and location  
  
 
-2.	**As a student, I want to track my study time, so I can reduce stress and see how much time I am allocating to each course on a weekly basis.** 
+**As a student, I want to track my study time, so I can reduce stress and see how much time I am allocating to each course on a weekly basis.** 
  
 **Acceptance criteria/tests** 
 •	Student can create study block in Calander and track time for all events  
@@ -127,8 +127,8 @@ Mood Logging Reminder
 •	When the student opens the mood tracking section,
 •	Then the app displays a weekly or monthly chart showing mood trends, including the number of positive, neutral, and negative days.
 
-**User Story 2**
-As a student, I want to include mental health breaks (e.g walks, meditation) in my schedule to maintain a good balance between academics and self-care.
+
+**As a student, I want to include mental health breaks (e.g walks, meditation) in my schedule to maintain a good balance between academics and self-care.**
 
 **Acceptance Criteria**
 •	The student must be able to schedule mental health breaks (e.g., meditation, journaling, exercise).
@@ -145,10 +145,9 @@ Break Reminder Notification
 •	When the scheduled time for the break is approaching,
 •	Then the app sends a notification reminding the student to take their break.
 
-======================================================================================================================================
 
 ### And Lastly Adam 
-1.	As a student I would like an app to help me create and let people know about events I organise so people who have similar interests to me can join my events. 
+**As a student I would like an app to help me create and let people know about events I organise so people who have similar interests to me can join my events.**
 
  **Acceptance criteria/tests** 
 •	User can enter the name, description, time and date of their event 
@@ -161,10 +160,9 @@ Break Reminder Notification
 •	Given the user is someone who wants to create an event 
 •	When the user clicks the "Create Event" button 
 •	Then the user can enter all the details about their event (name/category/time/place etc.) 
-   
-**User Stories:**   
-1.	As a student I would like an app that sends me updates on events going on near me so I can meet people with similar interests and make new friends at events  
-2.	As a student I would like to filter between categories of events, so I can choose if I want a relaxing/ social event, or a fun/ sporty/ active event. 
+     
+**As a student I would like an app that sends me updates on events going on near me so I can meet people with similar interests and make new friends at events.**  
+**As a student I would like to filter between categories of events, so I can choose if I want a relaxing/ social event, or a fun/ sporty/ active event.** 
 
 **Acceptance criteria/tests:** 
 •	User can enter the distance away they want an event to be for them to receive a notification 
@@ -194,7 +192,7 @@ Break Reminder Notification
 •	User increases the distance and then receives notifications
 
 
-## Initial Wireframes based on the above information 
+## Initial Wireframes and Use Case Diagrams based on the above information 
 
 ### Bob: 
 
@@ -209,7 +207,8 @@ Break Reminder Notification
 ### Use Case Diagrams 
 ![image](https://github.com/user-attachments/assets/6f9d5d90-d1d3-4d29-bb3a-0d764d1de1af)
 
-===========================================================
+
+### Adam:
 
 **Notification sent about an event:      Browse Existing Events:                         Create Events:**
 
@@ -226,9 +225,11 @@ Break Reminder Notification
 ![image](https://github.com/user-attachments/assets/58c9236b-2851-4c01-b111-cd9dab4ae297)  ![image](https://github.com/user-attachments/assets/1ff1d9f8-e81b-4521-9eee-7948a77e9988)
 
 
-==============================================
+==========================================================================================
 # Part 2: 
 ## User Story Entity Class Diagrams: 
+
+### Bob
 
 **1.	As a student I want to be notified about upcoming classes and or exams/CA’s daily, so I don’t miss a deadline or exam.**
 ![image](https://github.com/user-attachments/assets/6fd631c1-47ce-47bf-b021-63255a0963d5)
@@ -261,6 +262,16 @@ This class would be responsible for managing courses, exams, and schedules for a
 ## State Machine Diagrams 
 ### Timer Class State Machine Diagram 
 ![image](https://github.com/user-attachments/assets/b4a0be58-dde9-4ee5-95c7-28dfeb547f87)
+
+
+
+### Christina 
+
+
+
+
+### Adam
+
 
 
 ## Activity Diagram (shows how the features will fit together) 
