@@ -301,11 +301,11 @@ This class would be responsible for managing courses, exams, and schedules for a
 
 
 
-## And not onto Adam's section 
+## And now onto Adam's section 
 
 
 
-## Tieing all the sections together
+## Briniging all the sections together
 
 ## Activity Diagram to tie all the parts togeher (shows how the features will fit together) 
 ![image](https://github.com/user-attachments/assets/7026bde7-1d02-4a2a-8f1f-a8b12a728061)
