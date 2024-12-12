@@ -273,56 +273,39 @@ This class would be responsible for managing courses, exams, and schedules for a
 
 ### A deeper dive into each class and its methods
 
-**Key Methods and Classes needed:**
+### Key Methods and Classes needed:
 
 **NotificationManager class:** 
   - SendNotifications(Student studentId, Student name, String message): void 
   - ScheduleNotifications(Student studentId, DateTime datetime, String message): void 
   - GenerateDailyReminders(Student studentId): List<String>
 
+
 **ScheduleManager class:**
   - GetUpcomingClasses(Student studentId, Date date): List<Course>
   - GetUpcomingExams(Student studentId, Date date): List<Exam> 
+
+**StudySession Class**
+  - StartTimer()
+  - StopTimer()
+  - PauseTimer()
+
  
-
-**Method Specifications for key methods:**
-
-**SendNotification(Student studentId, Student name, String message)**
-- **Intent/purpose:** send notifications to a student 
-- **Parameters:** 
-  - studentId: the student id number to identify each student
-  - name: the name of the student 
-  - the notification message
-  - Returns void 
-- **Preconditions** 
-  - StudentId must not be null (must be an actual  student)
-  - Message must not be empty 
-- **Postconditions** 
-  - Notification is sent to the student 
-- **Dependencies** 
-  - Student class 
-  - Course class 
-  - Exam class
-
-
-
-
-
-
-## State Machine Diagrams 
 ### Timer Class State Machine Diagram 
 ![image](https://github.com/user-attachments/assets/b4a0be58-dde9-4ee5-95c7-28dfeb547f87)
 
 
 
-## Christina 
+## Now let's dive deeper into Christina's section   
 
 
 
 
-## Adam
+## And not onto Adam's section 
 
 
+
+## Tieing all the sections together
 
 ## Activity Diagram to tie all the parts togeher (shows how the features will fit together) 
 ![image](https://github.com/user-attachments/assets/7026bde7-1d02-4a2a-8f1f-a8b12a728061)
