@@ -316,6 +316,10 @@ This class would be responsible for managing courses, exams, and schedules for a
 
 ![StudentClassCode](https://github.com/user-attachments/assets/d4649a20-932a-4d5b-8d77-acaf53ff334c)
 
+**Schedule Class**
+
+![scheduleClass](https://github.com/user-attachments/assets/4da464e2-1d2e-4720-8598-17675d9a0b4d)
+
 ## Application Architecture Diagram (to see the whole picture)
 ![image](https://github.com/user-attachments/assets/6d8146ec-624b-4506-8952-3af34eb52a98)
 
