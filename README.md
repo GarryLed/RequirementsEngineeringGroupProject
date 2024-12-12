@@ -230,7 +230,7 @@ In this section, we will analyse the requirements even further by identifying th
 drawing class diagrams, state machine diagrams, architecture diagrams, adding collection classes, methods, method specifications,and tests.
 ## User Story Entity Class Diagrams: 
 
-### Bob
+## Bob's Section
 
 **1.	As a student I want to be notified about upcoming classes and or exams/CA’s daily, so I don’t miss a deadline or exam.**
 ![image](https://github.com/user-attachments/assets/6fd631c1-47ce-47bf-b021-63255a0963d5)
@@ -266,25 +266,25 @@ This class would be responsible for managing courses, exams, and schedules for a
 
 
 
-### Christina 
+## Christina 
 
 
 
 
-### Adam
+## Adam
 
 
 
-## Activity Diagram (shows how the features will fit together) 
+## Activity Diagram to tie all the parts togeher (shows how the features will fit together) 
 ![image](https://github.com/user-attachments/assets/7026bde7-1d02-4a2a-8f1f-a8b12a728061)
 
-## Prototype (code in C#)
+## Prototype (some sample classes built in C#)
 
 **Code for Student Class:**
 
 ![StudentClassCode](https://github.com/user-attachments/assets/d4649a20-932a-4d5b-8d77-acaf53ff334c)
 
-## Application Architecture Diagram 
+## Application Architecture Diagram (to see the whole picture)
 ![image](https://github.com/user-attachments/assets/6d8146ec-624b-4506-8952-3af34eb52a98)
 
 
