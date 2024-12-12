@@ -250,13 +250,13 @@ drawing class diagrams, state machine diagrams, architecture diagrams, adding co
 
 ### Collection Classes 
 
-1.	Class: Student 
+**Class: Student** 
  - Collection:  List<StudySession>
  - Reason for this collection: To track multiple study sessions for the student 
-2.	Class: Schedule 
+**Class: Schedule** 
   - Collection:  List<Course>, List<Exam>, List<Notification>
   - Reason for this collection: To track multiple courses and exams in a schedule
-3.	Class: Calendar 
+**Class: Calendar** 
   - Collection:  List<StudyBlock>
   - Reason for this collection: To store study blocks or time slot events 
 
