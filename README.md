@@ -107,8 +107,6 @@ Scenario: Setting study goals
 •	When I click on “Create study goal”  
 •	Then a popup window appears that allows me to enter a goal name, and the least number of hours I want to study for, daily. 
 
-===================================================================================================
-
 ### Now onto Christiana
 User Stories 
 As a student, I want to be able to track my mood throughout the day so I can track my wellbeing over time.
@@ -208,6 +206,11 @@ Break Reminder Notification
 ![image](https://github.com/user-attachments/assets/6f9d5d90-d1d3-4d29-bb3a-0d764d1de1af)
 
 
+### Christina
+**Tracking Moods Trends**
+
+![image](https://github.com/user-attachments/assets/58c9236b-2851-4c01-b111-cd9dab4ae297)  ![image](https://github.com/user-attachments/assets/1ff1d9f8-e81b-4521-9eee-7948a77e9988)
+
 ### Adam:
 
 **Notification sent about an event:      Browse Existing Events:                         Create Events:**
@@ -219,14 +222,12 @@ Break Reminder Notification
 
 ![image](https://github.com/user-attachments/assets/882f8496-b78b-426b-87e3-4ca380d79ef1)
 
-=======================================================================
-**Tracking Moods Trends**
-
-![image](https://github.com/user-attachments/assets/58c9236b-2851-4c01-b111-cd9dab4ae297)  ![image](https://github.com/user-attachments/assets/1ff1d9f8-e81b-4521-9eee-7948a77e9988)
 
 
 ==========================================================================================
 # Part 2: 
+In this section, we will analyse the requirements even further by identifying the entity classes, 
+drawing class diagrams, state machine diagrams, architecture diagrams adding collection classes, methods, method specifications,and adding tests.
 ## User Story Entity Class Diagrams: 
 
 ### Bob
