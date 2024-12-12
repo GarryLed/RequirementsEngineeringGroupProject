@@ -271,7 +271,7 @@ This class would be responsible for sending notifications and reminders to the s
 This class would be responsible for managing courses, exams, and schedules for a student, such as Bob. 
 
 
-#### A deeper dive into each class and its methods
+### A deeper dive into each class and its methods
 
 **Key Methods and Classes needed:**
 
@@ -283,20 +283,19 @@ This class would be responsible for managing courses, exams, and schedules for a
 **ScheduleManager class:**
   - GetUpcomingClasses(Student studentId, Date date): List<Course>
   - GetUpcomingExams(Student studentId, Date date): List<Exam> 
-  - StudySession class:
-  - StartTimer()
+ 
 
 
 **Method Specifications for key methods:**
 
 **SendNotification(Student studentId, Student name, String message)**
 - Intent/purpose: send notifications to a student 
-•	Parameters: 
-o	studentId: the student id number to identify each student
-o	name: the name of the student 
-o	the notification message
-o	Returns void 
-•	Preconditions 
+  - Parameters: 
+  - studentId: the student id number to identify each student
+  - name: the name of the student 
+  - the notification message
+  - Returns void 
+- Preconditions 
 o	StudentId must not be null (must be an actual  student)
 o	Message must not be empty 
 •	Postconditions 
