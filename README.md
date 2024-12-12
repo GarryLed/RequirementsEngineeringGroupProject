@@ -225,10 +225,9 @@ Break Reminder Notification
 
 
 
-==========================================================================================
 # Part 2: 
 In this section, we will analyse the requirements even further by identifying the entity classes, 
-drawing class diagrams, state machine diagrams, architecture diagrams, adding collection classes, methods, method specifications,and tests.
+drawing class diagrams, state machine diagrams, architecture diagrams, adding collection classes, methods, and method specifications.
 ## User Story Entity Class Diagrams: 
 
 ## Bob's Section
@@ -251,14 +250,65 @@ drawing class diagrams, state machine diagrams, architecture diagrams, adding co
 
 ### Collection Classes 
 
+1.	Class: Student 
+ - Collection:  List<StudySession>
+ - Reason for this collection: To track multiple study sessions for the student 
+2.	Class: Schedule 
+  - Collection:  List<Course>, List<Exam>, List<Notification>
+  - Reason for this collection: To track multiple courses and exams in a schedule
+3.	Class: Calendar 
+  - Collection:  List<StudyBlock>
+  - Reason for this collection: To store study blocks or time slot events 
+
+
 ### Manager Classes 
 Two other classes that could be needed for managing notifications and scheduling would be a NotificationManager class and a ScheduleManager class. For example,
 
-1.	NotificationManager Class that manages notifications sent to students for upcoming events, like classes, exams, or study blocks.
+1.	**NotificationManager** Class that manages notifications sent to students for upcoming events, like classes, exams, or study blocks.
 This class would be responsible for sending notifications and reminders to the student about their classes, exams or upcoming study blocks. 
 
-2.	ScheduleManager Class that handles all operations related to a student's schedule. 
-This class would be responsible for managing courses, exams, and schedules for a student. 
+2.	**ScheduleManager** Class that handles all operations related to a student's schedule. 
+This class would be responsible for managing courses, exams, and schedules for a student, such as Bob. 
+
+
+#### A deeper dive into each class and its methods
+
+**Key Methods and Classes needed:**
+
+**NotificationManager class:** 
+  - SendNotifications(Student studentId, Student name, String message): void 
+  - ScheduleNotifications(Student studentId, DateTime datetime, String message): void 
+  - GenerateDailyReminders(Student studentId): List<String>
+
+**ScheduleManager class:**
+  - GetUpcomingClasses(Student studentId, Date date): List<Course>
+  - GetUpcomingExams(Student studentId, Date date): List<Exam> 
+  - StudySession class:
+  - StartTimer()
+
+
+**Method Specifications for key methods:**
+
+**SendNotification(Student studentId, Student name, String message)**
+- Intent/purpose: send notifications to a student 
+•	Parameters: 
+o	studentId: the student id number to identify each student
+o	name: the name of the student 
+o	the notification message
+o	Returns void 
+•	Preconditions 
+o	StudentId must not be null (must be an actual  student)
+o	Message must not be empty 
+•	Postconditions 
+o	Notification is sent to the student 
+•	  Dependencies 
+o	Student class 
+o	Course class 
+o	Exam class
+
+
+
+
 
 
 ## State Machine Diagrams 
