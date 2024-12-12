@@ -55,19 +55,19 @@ She wants help finding events relevant to international or new students.
 
 ### Christina's User Stories 
  
-4.	As a student, I want to set study goals and get reminders to meet them, so I can stay motivated
-5.	As a student, I want to set notifications for study breaks or reminders to take a break, so I can manage my study sessions and avoid burnout.
+- As a student, I want to set study goals and get reminders to meet them, so I can stay motivated
+- As a student, I want to set notifications for study breaks or reminders to take a break, so I can manage my study sessions and avoid burnout.
 
 ### Adam's User Stories 
-6.	As a student I would like an app to help me create and let people know about events I organize so people who have similar interests to me can join my events. 
-7.	As a student I would like an app that sends me updates on events going on near me so I can meet people with similar interests and make new friends at events  
+- As a student I would like an app to help me create and let people know about events I organize so people who have similar interests to me can join my events. 
+- As a student I would like an app that sends me updates on events going on near me so I can meet people with similar interests and make new friends at events  
 8.	As a student I would like to filter between categories of events, so I can choose if I want a relaxing/ social event, or a fun/ sporty/ active event.
 
-## Going deeper into the User Stories
+## Going deeper into the User Stories (adding acceptance criteria/ tests for various scenarios)
 
-** Bob's User stories:** 
+### Starting with Bob
 
-1.	As a student I want to be notified about upcoming classes and or exams/CA’s daily so I don’t miss a deadline or exam.   
+1.	**As a student I want to be notified about upcoming classes and or exams/CA’s daily so I don’t miss a deadline or exam.** 
  
 **Acceptance criteria/tests** 
 •	User is notified about upcoming classes and events  
@@ -86,8 +86,8 @@ Scenario: Getting notifications for upcoming CA exams and/or assignments due
 •	When I have an upcoming exam  
 •	Then I am sent a notification to my phone about exam time and location  
  
-**User Story’s**
-1.	As a student, I want to track my study time, so I can reduce stress and see how much time I am allocating to each course on a weekly basis. 
+
+2.	**As a student, I want to track my study time, so I can reduce stress and see how much time I am allocating to each course on a weekly basis.** 
  
 **Acceptance criteria/tests** 
 •	Student can create study block in Calander and track time for all events  
@@ -109,7 +109,8 @@ Scenario: Setting study goals
 
 ===================================================================================================
 
-**User Story 1**
+### Now onto Christiana
+User Stories 
 As a student, I want to be able to track my mood throughout the day so I can track my wellbeing over time.
 Acceptance Criteria
 •	The student must be able to log their mood throughout the day.
@@ -144,9 +145,9 @@ Break Reminder Notification
 •	When the scheduled time for the break is approaching,
 •	Then the app sends a notification reminding the student to take their break.
 
-=======================================
+======================================================================================================================================
 
-**User Stories:**   
+### And Lastly Adam 
 1.	As a student I would like an app to help me create and let people know about events I organise so people who have similar interests to me can join my events. 
 
  **Acceptance criteria/tests** 
@@ -193,7 +194,9 @@ Break Reminder Notification
 •	User increases the distance and then receives notifications
 
 
-## Wireframes 
+## Initial Wireframes based on the above information 
+
+### Bob: 
 
 **As a student I want to be notified about upcoming classes and or exams/CA’s daily  so I don’t miss a deadline or exam.**
 
