@@ -303,12 +303,19 @@ As a student I would like to filter between categories of events, so I can choos
 
 Above we have three distinct sections of the application, and below we will tie these sections together to demonstrate how they fit together. 
 
+## Combined Class Entity Diagram 
+
+![Screen Shot 2024-12-14 at 11 23 40](https://github.com/user-attachments/assets/0fc36e7f-798d-451e-8fb7-d0d04be471db)
+
+
 ## Activity Diagram to tie all the parts togeher (shows how the features will fit together) 
-![image](https://github.com/user-attachments/assets/7026bde7-1d02-4a2a-8f1f-a8b12a728061)
 
-## Prototype (some sample classes built in C#)
+![Screen Shot 2024-12-14 at 11 52 31](https://github.com/user-attachments/assets/decf0f89-bdff-4009-9be9-6f80bcfede01)
 
-**Code for Student Class:**
+## Prototype (Below is a layout of some of the classes, attributes and collections built in C#)
+
+### Entity Classes
+**Student Class:**
 
 ![StudentClassCode](https://github.com/user-attachments/assets/d4649a20-932a-4d5b-8d77-acaf53ff334c)
 
@@ -316,8 +323,26 @@ Above we have three distinct sections of the application, and below we will tie 
 
 ![scheduleClass](https://github.com/user-attachments/assets/4da464e2-1d2e-4720-8598-17675d9a0b4d)
 
-## Application Architecture Diagram (to see the whole picture)
-![image](https://github.com/user-attachments/assets/6d8146ec-624b-4506-8952-3af34eb52a98)
+**Nofification Class**
+
+**Calendar Class**
+
+**StudySession Class**
+
+**StudyGoal Class**
+
+**Events Class**
+
+### Manager Classes
+**NotificationManager**
+
+**ScheduleManager**
+
+**EventManager**
+
+## Finally here is our Application Architecture Diagram (seeing how the parts fit the whole)
+
+![Screen Shot 2024-12-14 at 10 39 04](https://github.com/user-attachments/assets/59bdb293-7e75-4e59-8f8d-c3118a0e4747)
 
 
 
