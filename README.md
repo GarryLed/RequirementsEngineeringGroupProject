@@ -314,7 +314,7 @@ Above we have three distinct sections of the application, and below we will tie 
 
 ## Prototype (Below is a layout of the classes, attributes and collections built in C#)
 
-### Entity Classes
+## Entity Classes
 **Student Class:**
 
 ![StudentClassFinal](https://github.com/user-attachments/assets/f7ff520d-7c26-4172-8074-eb0561007e3f)
@@ -325,8 +325,9 @@ Above we have three distinct sections of the application, and below we will tie 
 ![ScheduleFinal](https://github.com/user-attachments/assets/40aaa27c-baac-48f0-a3b2-67d329e2147b)
 
 
-
 **Notification Class**
+
+![NotificationClassFinal](https://github.com/user-attachments/assets/ba649b0a-d333-4895-90f9-6933eefe1887)
 
 
 **Calendar Class**
@@ -355,12 +356,18 @@ Above we have three distinct sections of the application, and below we will tie 
 ![EventClassFinal](https://github.com/user-attachments/assets/e7668c8c-9d40-4465-ab46-7a821a3b6b3a)
 
 
-### Manager Classes
+## Manager Classes
 **NotificationManager**
+
+![NotificationManagerClassFinal](https://github.com/user-attachments/assets/3d43a660-58bd-4e89-a14c-8d2c807c1ade)
 
 **ScheduleManager**
 
+![ScheduleMangerFinal](https://github.com/user-attachments/assets/2bd84914-5aab-4cba-9cfa-0f67865701c5)
+
 **EventManager**
+
+![EventManagerClassFinal](https://github.com/user-attachments/assets/26b4db60-7969-402a-8713-5889c2090c2d)
 
 ## Finally here is our Application Architecture Diagram (seeing how the parts fit the whole)
 
