@@ -308,7 +308,7 @@ Above we have three distinct sections of the application, and below we will tie 
 ![Screen Shot 2024-12-14 at 11 23 40](https://github.com/user-attachments/assets/0fc36e7f-798d-451e-8fb7-d0d04be471db)
 
 
-## Activity Diagram to tie all the parts togeher (shows how the features will fit together) 
+## Activity Diagram to illustrate how the features will fit together 
 
 ![Screen Shot 2024-12-14 at 11 52 31](https://github.com/user-attachments/assets/decf0f89-bdff-4009-9be9-6f80bcfede01)
 
