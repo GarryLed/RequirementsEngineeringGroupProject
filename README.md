@@ -312,26 +312,48 @@ Above we have three distinct sections of the application, and below we will tie 
 
 ![Screen Shot 2024-12-14 at 11 52 31](https://github.com/user-attachments/assets/decf0f89-bdff-4009-9be9-6f80bcfede01)
 
-## Prototype (Below is a layout of some of the classes, attributes and collections built in C#)
+## Prototype (Below is a layout of the classes, attributes and collections built in C#)
 
 ### Entity Classes
 **Student Class:**
 
-![StudentClassCode](https://github.com/user-attachments/assets/d4649a20-932a-4d5b-8d77-acaf53ff334c)
+![StudentClassFinal](https://github.com/user-attachments/assets/f7ff520d-7c26-4172-8074-eb0561007e3f)
+
 
 **Schedule Class**
 
-![scheduleClass](https://github.com/user-attachments/assets/4da464e2-1d2e-4720-8598-17675d9a0b4d)
+![ScheduleFinal](https://github.com/user-attachments/assets/40aaa27c-baac-48f0-a3b2-67d329e2147b)
 
-**Nofification Class**
+
+
+**Notification Class**
+
 
 **Calendar Class**
 
+![CalendarFinal](https://github.com/user-attachments/assets/878f937d-9b1e-4d34-b8d8-362800dec7b8)
+
+**StudyBlock Class**
+
+![studyBlockFinal](https://github.com/user-attachments/assets/4a9beb79-4e8d-43b7-a6ae-500df7b864d0)
+
+
 **StudySession Class**
+
+![studySessionFinal](https://github.com/user-attachments/assets/03a5466d-0997-4e22-9fba-4590e9b6b98b)
 
 **StudyGoal Class**
 
+![StudyGoalFinal](https://github.com/user-attachments/assets/7211e8e0-1bd9-4d2c-92c8-01ab7b9bf854)
+
+**Timer Class**
+
+![TimerClassFinal](https://github.com/user-attachments/assets/6cb2c782-ef66-414a-ac0e-1d5b318da7dd)
+
 **Events Class**
+
+![EventClassFinal](https://github.com/user-attachments/assets/e7668c8c-9d40-4465-ab46-7a821a3b6b3a)
+
 
 ### Manager Classes
 **NotificationManager**
