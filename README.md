@@ -253,8 +253,6 @@ This class would be responsible for sending notifications and reminders to the s
 2.	**ScheduleManager** Class that handles all operations related to a student's schedule. 
 This class would be responsible for managing courses, exams, and schedules for a student, such as Bob.
 
-**Add diagram here** 
-
 ### Lastly for Bob's user requirements is a Timer Class, which is used for Tracking Time for Study Sessions 
 **Timer Class**
   - StartTimer()
