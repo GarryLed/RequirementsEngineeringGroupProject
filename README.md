@@ -243,69 +243,67 @@ drawing class diagrams, state machine diagrams, architecture diagrams, adding co
 
 ![image](https://github.com/user-attachments/assets/9b637f74-ede5-452b-8041-945fdc06c559)
 
-### Entity class relationships with cardinality for the above classes: 
-1.	**Student** and **Schedule**
- - Cardinality: 1:1 (One-to-One)
- - Each student has one schedule which contains their courses, exams and events.
-
-### Collection Classes 
-
-**Class: Student** 
- - Collection:  List<StudySession>
- - Reason for this collection: To track multiple study sessions for the student 
-**Class: Schedule** 
-  - Collection:  List<Course>, List<Exam>, List<Notification>
-  - Reason for this collection: To track multiple courses and exams in a schedule
-**Class: Calendar** 
-  - Collection:  List<StudyBlock>
-  - Reason for this collection: To store study blocks or time slot events 
-
-
-### Manager Classes 
+ 
+### In addition to the above Entity classes there will be two Manager Classes 
 Two other classes that could be needed for managing notifications and scheduling would be a NotificationManager class and a ScheduleManager class. For example,
 
 1.	**NotificationManager** Class that manages notifications sent to students for upcoming events, like classes, exams, or study blocks.
 This class would be responsible for sending notifications and reminders to the student about their classes, exams or upcoming study blocks. 
 
 2.	**ScheduleManager** Class that handles all operations related to a student's schedule. 
-This class would be responsible for managing courses, exams, and schedules for a student, such as Bob. 
+This class would be responsible for managing courses, exams, and schedules for a student, such as Bob.
 
+**Add diagram here** 
 
-### A deeper dive into each class and its methods
-
-### Key Methods and Classes needed:
-
-**NotificationManager class:** 
-  - SendNotifications(Student studentId, Student name, String message): void 
-  - ScheduleNotifications(Student studentId, DateTime datetime, String message): void 
-  - GenerateDailyReminders(Student studentId): List<String>
-
-
-**ScheduleManager class:**
-  - GetUpcomingClasses(Student studentId, Date date): List<Course>
-  - GetUpcomingExams(Student studentId, Date date): List<Exam> 
-
-**StudySession Class**
+### Lastly for Bob's user requirements is a Timer Class, which is used for Tracking Time for Study Sessions 
+**Timer Class**
   - StartTimer()
   - StopTimer()
   - PauseTimer()
 
- 
-### Timer Class State Machine Diagram 
+### Below we can see the Timer Class State Machine Diagram 
 ![image](https://github.com/user-attachments/assets/b4a0be58-dde9-4ee5-95c7-28dfeb547f87)
 
 
 
 ## Now let's dive deeper into Christina's section   
 
+## Entity Class Diagrams
 
+As a student, I want to set notifications for study breaks or reminders to take a break, so I can manage my study sessions and avoid burnout. 
+
+![studyBreakDiagarm](https://github.com/user-attachments/assets/30029eea-ce8d-4052-abb0-5dd55d7cd3f7)
+
+### Here we have a State Machine Diagram for the StudyBreak class: 
+
+![studyBreakStateDiagram](https://github.com/user-attachments/assets/8c99e9b8-6b46-4e7b-ab89-62c1613b2e4f)
+
+
+As a student, I want to set study goals and get reminders to meet them, so I can stay motivated 
+
+![StudyGaolDiagram](https://github.com/user-attachments/assets/bfdbf757-ef63-46d6-b639-4d9d5c0c0f07)
 
 
 ## And now onto Adam's section 
+### Entity Class Diagrams: 
 
+ As a student I would like an app to help me create and let people know about events I organise so people who have similar interests to me can join my events.
+ 
+![eventsClassDiagram](https://github.com/user-attachments/assets/b146f526-7683-4373-8361-befbfbfd9fe4)
 
+As a student I would like an app that sends me updates on events going on near me so I can meet people with similar interests and make new friends at events  
+
+As a student I would like to filter between categories of events, so I can choose if I want a relaxing/ social event, or a fun/ sporty/ active event. 
+
+![EventManagerDiagram](https://github.com/user-attachments/assets/3af17f10-10b8-49c4-96e8-f8f49655c335)
+
+### Diving deeper into the Event class with theState Machine Diagram: 
+
+![eventClassStateMachineDiagram](https://github.com/user-attachments/assets/c72b6202-6586-4719-adac-1382c6c82e01)
 
 ## Briniging all the sections together
+
+Above we have three distinct sections of the application, and below we will tie these sections together to demonstrate how they fit together. 
 
 ## Activity Diagram to tie all the parts togeher (shows how the features will fit together) 
 ![image](https://github.com/user-attachments/assets/7026bde7-1d02-4a2a-8f1f-a8b12a728061)
